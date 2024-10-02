@@ -19,6 +19,7 @@ python main.py \
 --depth=1 \
 --lr=5e-4 \
 --wd=1e-2 \
+--c_h=32 \
 --p_dim=0 \
 --random_splits=True \
 --epoch=200 \
