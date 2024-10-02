@@ -6,6 +6,25 @@ Multimodal machine learning has been widely studied for the development of gener
 ### Authors
 Seyun Bae, Hoyoon Byun, Changdae Oh, Yoon-Sik Cho, Kyungwoo Song
 
+### Run
+For each task, you can create and run a bash file like the code below. Below is an example of node classification. 
+
+```
+python main.py \
+--l_d=32 \
+--n_l=16 \
+--l_dh=128 \
+--c_dh=128 \
+--l_h=16 \
+--depth=1 \
+--lr=5e-4 \
+--wd=1e-2 \
+--p_dim=0 \
+--random_splits=True \
+--epoch=200 \
+--dataset=Cora \
+--seed=2025 ;
+`````
 
 We referred to the code provided below.
 
